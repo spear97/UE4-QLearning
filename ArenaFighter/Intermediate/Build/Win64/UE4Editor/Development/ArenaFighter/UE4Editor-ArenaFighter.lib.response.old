@@ -6,11 +6,15 @@
 /NAME:"UE4Editor-ArenaFighter.dll"
 /IGNORE:4221
 /NODEFAULTLIB
-"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
-"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighter.cpp.obj"
-"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighterGameModeBase.cpp.obj"
-"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighter.init.gen.cpp.obj"
-"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighterGameModeBase.gen.cpp.obj"
-"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\Default.rc2.res"
-/OUT:"C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter.lib"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighter.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighterGameModeBase.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\FighterCharacter.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\FileReader.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighter.init.gen.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\ArenaFighterGameModeBase.gen.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\FighterCharacter.gen.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\FileReader.gen.cpp.obj"
+"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\Default.rc2.res"
+/OUT:"C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter.lib"
 /INCLUDE:IMPLEMENT_MODULE_ArenaFighter

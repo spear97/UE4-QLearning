@@ -875,3 +875,333 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2022.05.11-20.19.00:288][348]LogMainFrame: MainFrame: Module compiling took 16.153 seconds
 [2022.05.11-20.19.00:307][348]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0155 seconds. Added 3630 classes and 874 folders.
 [2022.05.11-20.19.00:307][348]Display: HotReload took 16.2s.
+[2022.05.11-20.22.25:242][393]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" -game -rocket -progress
+[2022.05.11-20.22.25:648][393]Discovering modules, targets and source code for project...
+[2022.05.11-20.22.27:464][393]Binding IntelliSense data...
+[2022.05.11-20.22.30:200][393]Binding IntelliSense data... 100%
+[2022.05.11-20.22.30:200][393]Writing project files...
+[2022.05.11-20.22.37:970][393]Writing project files... 100%
+[2022.05.11-20.22.38:090][393]Candidate modules for hot reload:
+[2022.05.11-20.22.38:090][393]  ArenaFighter
+[2022.05.11-20.22.38:091][393]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaFighter,9270 ArenaFighterEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" "C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject"  -IgnoreJunk]
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: New page: Compilation - May 11, 2022, 10:22:51 AM
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE4-QLearning).
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Creating makefile for ArenaFighterEditor (no existing makefile)
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Parsing headers for ArenaFighterEditor
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\ArenaFighter.uproject" "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\ArenaFighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Reflection code generated for ArenaFighterEditor in 5.7851369 seconds
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Building ArenaFighterEditor...
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   [1/6] ArenaFighter.init.gen.cpp
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   [2/6] FighterCharacter.cpp
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   [3/6] FighterCharacter.gen.cpp
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   [4/6] UE4Editor-ArenaFighter-9270.lib
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-9270.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-9270.exp
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   [5/6] UE4Editor-ArenaFighter-9270.dll
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-9270.suppressed.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-9270.suppressed.exp
+[2022.05.11-20.22.51:249][393]CompilerResultsLog:   [6/6] ArenaFighterEditor.target
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Total time in Parallel executor: 5.10 seconds
+[2022.05.11-20.22.51:249][393]CompilerResultsLog: Total execution time: 13.07 seconds
+[2022.05.11-20.22.51:249][393]LogMainFrame: MainFrame: Module compiling took 13.163 seconds
+[2022.05.11-20.22.51:328][393]LogClass: Could not find existing class FighterCharacter in package /Script/ArenaFighter for HotReload, assuming new class
+[2022.05.11-20.22.51:328][393]LogClass: Could not find existing class FileReader in package /Script/ArenaFighter for HotReload, assuming new class
+[2022.05.11-20.22.51:329][393]LogClass: Function LoadTxt is new.
+[2022.05.11-20.22.51:329][393]LogClass: Function SaveTxt is new.
+[2022.05.11-20.22.51:332][393]LogHotReload: Re-instancing FileReader after hot-reload.
+[2022.05.11-20.22.51:336][393]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaFighter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.05.11-20.22.51:340][393]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.11-20.22.51:372][393]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3631 classes and 874 folders.
+[2022.05.11-20.22.51:372][393]Display: HotReload took 13.3s.
+[2022.05.11-20.22.51:374][393]Warning: HotReload operation took 13.3s.
+[2022.05.11-20.22.51:927][393]LogVSAccessor: Warning: Couldn't open file 'C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/Source/ArenaFighter/FighterCharacter.cpp'.
+[2022.05.11-20.22.51:933][393]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.05.11-20.22.51:939][393]LogHotReload: New module detected: UE4Editor-ArenaFighter-9270.dll
+[2022.05.11-20.22.51:994][394]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.11-20.22.52:025][394]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaFighter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.05.11-20.22.52:031][394]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.11-20.22.52:045][394]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0101 seconds. Added 3631 classes and 874 folders.
+[2022.05.11-20.22.52:050][394]Display: HotReload took  0.1s.
+[2022.05.11-20.25.28:874][911]Candidate modules for hot reload:
+[2022.05.11-20.25.28:874][911]  ArenaFighter
+[2022.05.11-20.25.28:874][911]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaFighter,4656 ArenaFighterEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" "C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject"  -IgnoreJunk]
+[2022.05.11-20.25.28:876][911]Warning: Starting HotReload took  0.0s.
+[2022.05.11-20.25.43:076][509]CompilerResultsLog: New page: Compilation - May 11, 2022, 10:25:43 AM
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE4-QLearning).
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Parsing headers for ArenaFighterEditor
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\ArenaFighter.uproject" "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\ArenaFighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Reflection code generated for ArenaFighterEditor in 4.742763 seconds
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Building ArenaFighterEditor...
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   [1/6] ArenaFighter.init.gen.cpp
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   [2/6] FighterCharacter.gen.cpp
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   [3/6] FighterCharacter.cpp
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   [4/6] UE4Editor-ArenaFighter-4656.lib
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-4656.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-4656.exp
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   [5/6] UE4Editor-ArenaFighter-4656.dll
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-4656.suppressed.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-4656.suppressed.exp
+[2022.05.11-20.25.43:077][509]CompilerResultsLog:   [6/6] ArenaFighterEditor.target
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Total time in Parallel executor: 8.35 seconds
+[2022.05.11-20.25.43:077][509]CompilerResultsLog: Total execution time: 14.10 seconds
+[2022.05.11-20.25.43:077][509]LogMainFrame: MainFrame: Module compiling took 14.208 seconds
+[2022.05.11-20.25.43:115][509]LogClass: Could not find existing class FighterCharacter in package /Script/ArenaFighter for HotReload, assuming new class
+[2022.05.11-20.25.43:115][509]LogClass: Function ComboReset is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function DamageGenerator is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function Leap is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function MeleeAttacks is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function MultiStringCombo is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function RangedAttacks is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function Roll is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function SaveMultiAttack is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function SaveTwoAttack is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function StartAbility is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function StopAbility is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function StopLeap is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function StopRoll is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function UpdateCapsuleLocation is new.
+[2022.05.11-20.25.43:115][509]LogClass: Function UpdateLocation is new.
+[2022.05.11-20.25.43:122][509]LogHotReload: Re-instancing FighterCharacter after hot-reload.
+[2022.05.11-20.25.43:127][509]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaFighter' in 0.0003 seconds. Added 3 classes and 2 folders.
+[2022.05.11-20.25.43:133][509]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2022.05.11-20.25.43:164][509]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0094 seconds. Added 3631 classes and 874 folders.
+[2022.05.11-20.25.43:164][509]Display: HotReload took 14.3s.
+[2022.05.11-20.27.07:920][776]Running C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" -game -rocket -progress
+[2022.05.11-20.27.08:326][776]Discovering modules, targets and source code for project...
+[2022.05.11-20.27.10:745][776]Binding IntelliSense data...
+[2022.05.11-20.27.13:479][776]Binding IntelliSense data... 100%
+[2022.05.11-20.27.13:479][776]Writing project files...
+[2022.05.11-20.27.18:726][776]Writing project files... 100%
+[2022.05.11-20.27.18:841][776]Candidate modules for hot reload:
+[2022.05.11-20.27.18:841][776]  ArenaFighter
+[2022.05.11-20.27.18:842][776]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaFighter,6529 ArenaFighterEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" "C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject"  -IgnoreJunk]
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: New page: Compilation - May 11, 2022, 10:27:32 AM
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE4-QLearning).
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Creating makefile for ArenaFighterEditor (no existing makefile)
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Parsing headers for ArenaFighterEditor
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\ArenaFighter.uproject" "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\ArenaFighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Reflection code generated for ArenaFighterEditor in 4.1744531 seconds
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Building ArenaFighterEditor...
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   [1/6] ArenaFighter.init.gen.cpp
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   [2/6] AI_Fighter.cpp
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   [3/6] AI_Fighter.gen.cpp
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   [4/6] UE4Editor-ArenaFighter-6529.lib
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6529.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6529.exp
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   [5/6] UE4Editor-ArenaFighter-6529.dll
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6529.suppressed.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6529.suppressed.exp
+[2022.05.11-20.27.32:332][776]CompilerResultsLog:   [6/6] ArenaFighterEditor.target
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Total time in Parallel executor: 7.01 seconds
+[2022.05.11-20.27.32:332][776]CompilerResultsLog: Total execution time: 13.40 seconds
+[2022.05.11-20.27.32:332][776]LogMainFrame: MainFrame: Module compiling took 13.496 seconds
+[2022.05.11-20.27.32:367][776]LogClass: Could not find existing class AI_Fighter in package /Script/ArenaFighter for HotReload, assuming new class
+[2022.05.11-20.27.32:373][776]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaFighter' in 0.0002 seconds. Added 4 classes and 2 folders.
+[2022.05.11-20.27.32:379][776]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.05.11-20.27.32:410][776]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0099 seconds. Added 3632 classes and 874 folders.
+[2022.05.11-20.27.32:410][776]Display: HotReload took 13.6s.
+[2022.05.11-20.27.32:410][776]Warning: HotReload operation took 13.6s.
+[2022.05.11-20.27.32:642][776]LogVSAccessor: Warning: Couldn't open file 'C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/Source/ArenaFighter/AI_Fighter.cpp'.
+[2022.05.11-20.27.32:646][776]LogSlate: Window 'Add C++ Class' being destroyed
+[2022.05.11-20.27.32:653][776]LogHotReload: New module detected: UE4Editor-ArenaFighter-6529.dll
+[2022.05.11-20.27.32:708][777]LogHotReload: Starting Hot-Reload from IDE
+[2022.05.11-20.27.32:781][777]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaFighter' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.05.11-20.27.32:786][777]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2022.05.11-20.27.32:800][777]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0104 seconds. Added 3632 classes and 874 folders.
+[2022.05.11-20.27.32:805][777]Display: HotReload took  0.1s.
+[2022.05.11-20.30.18:226][804]Candidate modules for hot reload:
+[2022.05.11-20.30.18:226][804]  ArenaFighter
+[2022.05.11-20.30.18:227][804]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaFighter,7815 ArenaFighterEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" "C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject"  -IgnoreJunk]
+[2022.05.11-20.30.18:229][804]Warning: Starting HotReload took  0.1s.
+[2022.05.11-20.30.33:080][422]CompilerResultsLog: New page: Compilation - May 11, 2022, 10:30:33 AM
+[2022.05.11-20.30.33:080][422]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE4-QLearning).
+[2022.05.11-20.30.33:080][422]CompilerResultsLog: Parsing headers for ArenaFighterEditor
+[2022.05.11-20.30.33:080][422]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\ArenaFighter.uproject" "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\ArenaFighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.11-20.30.33:081][422]CompilerResultsLog: Reflection code generated for ArenaFighterEditor in 4.9248463 seconds
+[2022.05.11-20.30.33:081][422]CompilerResultsLog: Building ArenaFighterEditor...
+[2022.05.11-20.30.33:081][422]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.11-20.30.33:081][422]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:   [1/6] ArenaFighter.init.gen.cpp
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:   [2/6] AI_Fighter.cpp
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.h(16) : error C2079: 'AAI_Fighter' uses undefined class 'FIGHTER_API'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.h(16) : error C2143: syntax error: missing ';' before ':'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.h(16) : error C2059: syntax error: ':'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.h(16) : error C2059: syntax error: 'public'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.h(17) : error C2143: syntax error: missing ';' before '{'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.h(17) : error C2447: '{': missing function header (old-style formal list?)
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(6) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(6) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(6) : error C4508: '{ctor}': function should return a value; 'void' return type assumed
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(9) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(11) : error C2065: 'A': undeclared identifier
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(11) : error C3861: 'PlayAnimMontage': identifier not found
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(15) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(17) : error C2065: 'B': undeclared identifier
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(17) : error C3861: 'PlayAnimMontage': identifier not found
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(21) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(23) : error C2065: 'C': undeclared identifier
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(23) : error C3861: 'PlayAnimMontage': identifier not found
+[2022.05.11-20.30.33:081][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(27) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(29) : error C2065: 'D': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(29) : error C3861: 'PlayAnimMontage': identifier not found
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(33) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(42) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(44) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(52) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(54) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(63) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(73) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(75) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(84) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(86) : error C2065: 'Values': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(96) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(99) : error C2065: 'alpha': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(99) : error C2065: 'Reward': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\AI_Fighter.cpp(99) : error C2065: 'gamma': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   [3/6] AI_Fighter.gen.cpp
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(16) : error C2079: 'AAI_Fighter' uses undefined class 'FIGHTER_API'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(16) : error C2143: syntax error: missing ';' before ':'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(16) : error C2059: syntax error: ':'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(16) : error C2059: syntax error: 'public'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(17) : error C2143: syntax error: missing ';' before '{'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(17) : error C2447: '{': missing function header (old-style formal list?)
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(22) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(28) : error C2065: 'ThisClass': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(28) : error C2059: syntax error: ')'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(31) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(37) : error C2065: 'ThisClass': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(37) : error C2059: syntax error: ')'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(40) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(44) : error C2065: 'ThisClass': undeclared identifier
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(44) : error C2059: syntax error: ')'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(47) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:082][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(51) : error C2065: 'ThisClass': undeclared identifier
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(51) : error C2059: syntax error: ')'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(54) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(58) : error C2065: 'ThisClass': undeclared identifier
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(58) : error C2059: syntax error: ')'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(61) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(65) : error C2065: 'ThisClass': undeclared identifier
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(65) : error C2059: syntax error: ')'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(68) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(70) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(70) : error C2672: 'StaticClass': no matching overloaded function found
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(70) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(72) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(73) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(74) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(75) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(76) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(77) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(267) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(267) : error C2672: 'StaticClass': no matching overloaded function found
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(267) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(352) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(360) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(368) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(375) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(382) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(389) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(396) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(403) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(410) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(417) : error C2615: 'offsetof' cannot be applied to non-class type 'int'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(434) : error C2923: 'TCppClassTypeTraits': 'AAI_Fighter' is not a valid template type argument for parameter 'CPPCLASS'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(16): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(434) : error C2955: 'TCppClassTypeTraits': use of class template requires template argument list
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2453): note: see declaration of 'TCppClassTypeTraits'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(434) : error C4800: Implicit conversion from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to bool. Possible information loss
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(435): note: consider using explicit cast or comparison to 0 to avoid this warning
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/Class.h(2456): note: see declaration of 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>'
+[2022.05.11-20.30.33:083][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(435): warning C4305: 'initializing': truncation from 'TCppClassTypeTraits<CPPCLASS>::<unnamed-enum-IsAbstract>' to 'bool'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(437) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(437) : error C2440: 'initializing': cannot convert from 'overloaded-function' to 'UClass *(__cdecl *)(void)'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(437): note: None of the functions with this name in scope match the target type
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(460) : error C2923: 'TClassCompiledInDefer': 'AAI_Fighter' is not a valid template type argument for parameter 'TClass'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter/AI_Fighter.h(16): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(460) : error C2514: 'TClassCompiledInDefer': class template cannot be constructed
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(291): note: see declaration of 'TClassCompiledInDefer'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(460) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(460) : error C3861: 'StaticPackage': identifier not found
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(460) : error C2065: 'StaticClassFlags': undeclared identifier
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(460) : error C2061: syntax error: identifier 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(462) : error C2912: explicit specialization 'UClass *StaticClass<AAI_Fighter>(void)' is not a specialization of a function template
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(463) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(463) : error C2672: 'StaticClass': no matching overloaded function found
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(463) : error C2783: 'UClass *StaticClass(void)': could not deduce template argument for 'ClassType'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/ReflectedTypeAccessors.h(13): note: see declaration of 'StaticClass'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(465) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(465) : error C2664: 'FCompiledInDefer::FCompiledInDefer(UClass *(__cdecl *)(void),UClass *(__cdecl *)(void),const TCHAR *,const TCHAR *,bool,const TCHAR *,const TCHAR *,void (__cdecl *)(TMap<FName,FName,FDefaultSetAllocator,TDefaultMapHashableKeyFuncs<KeyType,ValueType,false>> &))': cannot convert argument 2 from 'UClass *(__cdecl *)(void)' to 'UClass *(__cdecl *)(void)'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:           with
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:           [
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:               KeyType=FName,
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:               ValueType=FName
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:           ]
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(465): note: None of the functions with this name in scope match the target type
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Program Files\Epic Games\UE_4.26\Engine\Source\Runtime\CoreUObject\Public\UObject/UObjectBase.h(316): note: see declaration of 'FCompiledInDefer::FCompiledInDefer'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(466) : error C2027: use of undefined type 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:   C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.generated.h(105): note: see declaration of 'AAI_Fighter'
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(466) : error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(466) : error C2550: '{ctor}': constructor initializer lists are only allowed on constructor definitions
+[2022.05.11-20.30.33:084][422]CompilerResultsLog:    C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Inc\ArenaFighter\AI_Fighter.gen.cpp(466) : error C4508: '{ctor}': function should return a value; 'void' return type assumed
+[2022.05.11-20.30.33:084][422]LogMainFrame: MainFrame: Module compiling took 14.865 seconds
+[2022.05.11-20.30.33:090][422]Warning: HotReload failed, recompile failed
+[2022.05.11-20.30.35:432][680]LogSlate: Took 0.000846 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2022.05.11-20.31.00:462][553]LogSlate: Window 'Message Log' being destroyed
+[2022.05.11-20.31.00:464][553]LogSlate: Window 'Message Log' being destroyed
+[2022.05.11-20.31.05:492][761]Candidate modules for hot reload:
+[2022.05.11-20.31.05:492][761]  ArenaFighter
+[2022.05.11-20.31.05:492][761]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.26/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=ArenaFighter,6847 ArenaFighterEditor Win64 Development -Project="C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject" "C:/Users/seanp/Documents/Github/UE4-QLearning/ArenaFighter/ArenaFighter.uproject"  -IgnoreJunk]
+[2022.05.11-20.31.05:494][761]Warning: Starting HotReload took  0.0s.
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: New page: Compilation - May 11, 2022, 10:31:18 AM
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Users\seanp\Documents\Github\UE4-QLearning).
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Parsing headers for ArenaFighterEditor
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   Running UnrealHeaderTool "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\ArenaFighter.uproject" "C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\ArenaFighterEditor\Development\ArenaFighterEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -abslog="C:\Users\seanp\AppData\Local\UnrealBuildTool\Log_UHT.txt" -installed
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Reflection code generated for ArenaFighterEditor in 4.7530336 seconds
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Building ArenaFighterEditor...
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Using Visual Studio 2019 14.28.29910 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.28.29910) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Building 6 actions with 16 processes...
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   [1/6] ArenaFighter.init.gen.cpp
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   [2/6] AI_Fighter.cpp
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   [3/6] AI_Fighter.gen.cpp
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   [4/6] UE4Editor-ArenaFighter-6847.lib
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6847.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6847.exp
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   [5/6] UE4Editor-ArenaFighter-6847.dll
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:      Creating library C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6847.suppressed.lib and object C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\UE4Editor-ArenaFighter-6847.suppressed.exp
+[2022.05.11-20.31.18:932][252]CompilerResultsLog:   [6/6] ArenaFighterEditor.target
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Total time in Parallel executor: 7.59 seconds
+[2022.05.11-20.31.18:932][252]CompilerResultsLog: Total execution time: 13.33 seconds
+[2022.05.11-20.31.18:932][252]LogMainFrame: MainFrame: Module compiling took 13.446 seconds
+[2022.05.11-20.31.18:985][252]LogNativeClassHierarchy: Verbose: Native class hierarchy updated for 'ArenaFighter' in 0.0003 seconds. Added 4 classes and 2 folders.
+[2022.05.11-20.31.18:991][252]Display: HotReload successful (17 functions remapped  0 scriptstructs remapped)
+[2022.05.11-20.31.19:021][252]LogNativeClassHierarchy: Verbose: Native class hierarchy populated in 0.0100 seconds. Added 3632 classes and 874 folders.
+[2022.05.11-20.31.19:021][252]Display: HotReload took 13.5s.

@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaFighter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{5B6997A4-BAEB-48B8-945A-D76AACFBB121}</UniqueIdentifier>
+      <UniqueIdentifier>{5D9539AB-F3FB-4A47-9433-51B05DEB1D27}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaFighter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{886DED2A-BFC7-4E2B-936B-D09016E50310}</UniqueIdentifier>
+      <UniqueIdentifier>{FA099207-8CA4-47A4-B02A-103EFEF0257D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,8 +24,14 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaFighter">
-      <UniqueIdentifier>{E4E00946-AC8F-4949-9ECF-17462BC421D0}</UniqueIdentifier>
+      <UniqueIdentifier>{25E60D3D-641E-462C-B5B5-DD7F1524E75D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\ArenaFighter\AI_Fighter.cpp">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaFighter\AI_Fighter.h">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClInclude>
     <None Include="..\..\Source\ArenaFighter\ArenaFighter.Build.cs">
       <Filter>Source\ArenaFighter</Filter>
     </None>
@@ -39,6 +45,12 @@
       <Filter>Source\ArenaFighter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArenaFighter\ArenaFighterGameModeBase.h">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaFighter\FighterCharacter.cpp">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaFighter\FighterCharacter.h">
       <Filter>Source\ArenaFighter</Filter>
     </ClInclude>
     <ClCompile Include="..\..\Source\ArenaFighter\FileReader.cpp">
