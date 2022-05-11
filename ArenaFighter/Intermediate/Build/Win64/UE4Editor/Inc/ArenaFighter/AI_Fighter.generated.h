@@ -14,8 +14,26 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #define ARENAFIGHTER_AI_Fighter_generated_h
 
 #define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_SPARSE_DATA
-#define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_RPC_WRAPPERS
-#define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_RPC_WRAPPERS_NO_PURE_DECLS
+#define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execGetNextAction); \
+	DECLARE_FUNCTION(execGetQValue); \
+	DECLARE_FUNCTION(execAttack4); \
+	DECLARE_FUNCTION(execAttack3); \
+	DECLARE_FUNCTION(execAttack2); \
+	DECLARE_FUNCTION(execAttack1);
+
+
+#define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetNextAction); \
+	DECLARE_FUNCTION(execGetQValue); \
+	DECLARE_FUNCTION(execAttack4); \
+	DECLARE_FUNCTION(execAttack3); \
+	DECLARE_FUNCTION(execAttack2); \
+	DECLARE_FUNCTION(execAttack1);
+
+
 #define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAAI_Fighter(); \
@@ -36,7 +54,7 @@ public: \
 
 #define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAI_Fighter(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AAI_Fighter(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AAI_Fighter) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AAI_Fighter); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AAI_Fighter); \
@@ -48,8 +66,6 @@ public:
 
 
 #define ArenaFighter_Source_ArenaFighter_AI_Fighter_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AAI_Fighter() { }; \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AAI_Fighter(AAI_Fighter&&); \
