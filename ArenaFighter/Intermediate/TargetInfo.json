@@ -2,12 +2,12 @@
 	"Targets": [
 		{
 			"Name": "ArenaFighter",
-			"Path": "C:\\Users\\seanp\\Documents\\Unreal Projects\\ArenaFighter\\Source\\ArenaFighter.Target.cs",
+			"Path": "C:\\Users\\seanp\\Documents\\Github\\UE4-QLearning\\ArenaFighter\\Source\\ArenaFighter.Target.cs",
 			"Type": "Game"
 		},
 		{
 			"Name": "ArenaFighterEditor",
-			"Path": "C:\\Users\\seanp\\Documents\\Unreal Projects\\ArenaFighter\\Source\\ArenaFighterEditor.Target.cs",
+			"Path": "C:\\Users\\seanp\\Documents\\Github\\UE4-QLearning\\ArenaFighter\\Source\\ArenaFighterEditor.Target.cs",
 			"Type": "Editor"
 		}
 	]

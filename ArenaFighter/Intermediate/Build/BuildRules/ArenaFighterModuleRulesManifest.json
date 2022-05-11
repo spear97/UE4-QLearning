@@ -1,8 +1,8 @@
 {
 	"SourceFiles": [
-		"C:\\Users\\seanp\\Documents\\Unreal Projects\\ArenaFighter\\Source\\ArenaFighter\\ArenaFighter.Build.cs",
-		"C:\\Users\\seanp\\Documents\\Unreal Projects\\ArenaFighter\\Source\\ArenaFighter.Target.cs",
-		"C:\\Users\\seanp\\Documents\\Unreal Projects\\ArenaFighter\\Source\\ArenaFighterEditor.Target.cs"
+		"C:\\Users\\seanp\\Documents\\Github\\UE4-QLearning\\ArenaFighter\\Source\\ArenaFighter\\ArenaFighter.Build.cs",
+		"C:\\Users\\seanp\\Documents\\Github\\UE4-QLearning\\ArenaFighter\\Source\\ArenaFighter.Target.cs",
+		"C:\\Users\\seanp\\Documents\\Github\\UE4-QLearning\\ArenaFighter\\Source\\ArenaFighterEditor.Target.cs"
 	],
 	"EngineVersion": "4.26.2"
 }

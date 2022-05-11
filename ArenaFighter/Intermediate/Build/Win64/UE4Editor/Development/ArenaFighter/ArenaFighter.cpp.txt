@@ -1,2 +1,2 @@
-C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\Definitions.ArenaFighter.h
-C:\Users\seanp\Documents\Unreal Projects\ArenaFighter\Source\ArenaFighter\ArenaFighter.h
+C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Intermediate\Build\Win64\UE4Editor\Development\ArenaFighter\Definitions.ArenaFighter.h
+C:\Users\seanp\Documents\Github\UE4-QLearning\ArenaFighter\Source\ArenaFighter\ArenaFighter.h

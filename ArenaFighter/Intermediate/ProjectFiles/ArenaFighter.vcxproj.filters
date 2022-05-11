@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\ArenaFighter.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{B97154EB-CEAC-48D5-9163-4789A44CB647}</UniqueIdentifier>
+      <UniqueIdentifier>{5B6997A4-BAEB-48B8-945A-D76AACFBB121}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaFighter.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{57684EEC-3C19-43D2-97C5-EC038339C8E2}</UniqueIdentifier>
+      <UniqueIdentifier>{886DED2A-BFC7-4E2B-936B-D09016E50310}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\ArenaFighter">
-      <UniqueIdentifier>{55550C86-F050-47D6-B42B-95C2AEC34CFB}</UniqueIdentifier>
+      <UniqueIdentifier>{E4E00946-AC8F-4949-9ECF-17462BC421D0}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\ArenaFighter\ArenaFighter.Build.cs">
       <Filter>Source\ArenaFighter</Filter>
@@ -39,6 +39,12 @@
       <Filter>Source\ArenaFighter</Filter>
     </ClCompile>
     <ClInclude Include="..\..\Source\ArenaFighter\ArenaFighterGameModeBase.h">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaFighter\FileReader.cpp">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaFighter\FileReader.h">
       <Filter>Source\ArenaFighter</Filter>
     </ClInclude>
   </ItemGroup>
