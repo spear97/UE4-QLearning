@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\ArenaFighter.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{B97154EB-CEAC-48D5-9163-4789A44CB647}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArenaFighter.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\ArenaFighterEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{57684EEC-3C19-43D2-97C5-EC038339C8E2}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\ArenaFighter">
+      <UniqueIdentifier>{55550C86-F050-47D6-B42B-95C2AEC34CFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\ArenaFighter\ArenaFighter.Build.cs">
+      <Filter>Source\ArenaFighter</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\ArenaFighter\ArenaFighter.cpp">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaFighter\ArenaFighter.h">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\ArenaFighter\ArenaFighterGameModeBase.cpp">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\ArenaFighter\ArenaFighterGameModeBase.h">
+      <Filter>Source\ArenaFighter</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
